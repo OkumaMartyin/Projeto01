@@ -1,4 +1,4 @@
-package aula_01;
+package entidade;
 // Ctrl + Shift + C comenta a linha automaticamente
 // shift + alt + F identa o código
 // Alt + INSERT faz com que voce consiga fazer o Getter e Setter la de baixo
@@ -6,7 +6,6 @@ public class Aluno {
 
     //quem sao e quantos sao os tipos prmitivos em java
     private String nome; //Valor default de uma classe é null sempre!! BTW o default do bool é False
-    private String sobrenome;
     private String idade;
     private String telefone;
     private float salario; //começa com letra minuscula o tipo primitivo em java 
@@ -25,13 +24,6 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
-    }
 
     public String getIdade() {
         return idade;
